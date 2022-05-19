@@ -86,18 +86,23 @@ img{
   display: flex;
   align-items: center;
   list-style: none;
+
+
+}
+.sitenav-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.sitenav-link{
+  text-decoration: none;
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: #333333;
+  color: #333;
 }
-.sitenav-item:not(:last-child) {
-  margin-right: 40px;
-}
-
 
 /* HERO */
 
