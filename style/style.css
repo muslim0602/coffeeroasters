@@ -44,6 +44,7 @@ img{
 
 .main-content{
   flex-grow: 1;
+
 }
 .top{
   width: 100%;
@@ -140,17 +141,17 @@ img{
 
 }
 .hero-btn {
-  width: 193px;
-  height: 51px;
-  border: none;
-  background-color: #0a775f;
-  border-radius: 100px;
-  color: #fff;
-  text-transform: uppercase;
-  font-style: normal;
+  font-family: "Roboto", "Arial", sans-serif;
   font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  border: none;
   text-align: center;
   letter-spacing: 1px;
+  color: #fff;
+  padding: 16px 24px;
+  border-radius: 100px;
+  background-color: #0a775f;
   }
   .alfred-img{
 
@@ -170,5 +171,76 @@ img{
   }
 
 
+/* MAIN */
+.collection {
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+  padding: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0;
+}
+.collection-container {
+  width: 100%;
+  max-width: 1400px;
+  padding: 50px 143px;
+  margin-top: 20px;
+  background-color: #f8f8f2;
+}
 
-  /* Robot 400 500 700 */
+.collection-heading {
+  text-align: center;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+  margin: 0;
+  margin-bottom: 80px;
+  color: #000;
+
+}
+.collection-item-content{
+  width: 453px;
+}
+.collection-list {
+}
+.collection-item {
+  display: flex;
+  align-items: center;
+}
+.collection-item-img {
+  width: 450px;
+  height: 375px;
+  margin: 0;
+  background-color: transparent;
+}
+.collection-item-img:nth-child(1){
+  margin-right: 117px;
+}
+.collection-item-img:nth-child(3){
+  margin-right: 117px;
+}
+.collection-item-img:nth-child(2n){
+  margin-left: 117px;
+}
+.collection-item-heading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  margin: 0;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #333;
+}
+.collection-item-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  margin: 0;
+  line-height: 34px;
+  color: #333333;
+
+}
