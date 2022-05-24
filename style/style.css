@@ -81,8 +81,7 @@ img{
   height: 24px;
 
 }
-.sitenav {
-}
+
 .sitenav-list {
   display: flex;
   align-items: center;
@@ -90,9 +89,22 @@ img{
   padding: 0;
   margin: 0;
   text-align: center;
-  gap: 40px;
+  gap: 20px;
 }
+.sitenav-item{
 
+  height: 19px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 0;
+  text-transform: uppercase;
+  color: #333;
+
+}
 .sitenav-item:not(:last-child) {
   margin-right: 40px;
 }
@@ -456,11 +468,14 @@ img{
   padding: 68px 0px;
   margin: 0 auto;
 }
-
+.footer-list{
+  width: 433px;
+  padding-left: 60px;
+}
 .social-media{
   display: flex;
   align-items: center;
-  margin-left: 331px;
+  margin-left: 341px;
 
 }
 
