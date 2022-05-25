@@ -648,3 +648,11 @@ img{
   line-height: 28px;
   color: #333;
 }
+
+
+/* CREATE_PLAN */
+.create-plan-container{
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+}
