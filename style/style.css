@@ -57,12 +57,11 @@ img{
   height: 24px;
   display: flex;
   align-items: center;
-  padding: 0px;
+  padding: 0px 50px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
   margin-bottom: 30px;
-
 }
 .site-logo {
   margin-right: auto;
@@ -77,7 +76,6 @@ img{
   position: absolute;
   width: 203px;
   height: 24px;
-
 }
 
 .sitenav-list {
@@ -118,21 +116,27 @@ img{
   color: #333;
 }
 
-/* HERO */
 
+/* HERO */
 .hero{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  padding: 0;
+}
+
+.hero-container{
+  max-width: 1440px;
   padding-left: 150px;
+  margin: 0 auto;
 
 }
 .hero-content {
   width: 464px;
-  padding: 0;
-  margin: 0;
-  margin-top: 156px;
+  height: 331px;
+  left: 150px;
+  top: 220px;
   margin-right: 116px;
+  margin-bottom: 150px;
 }
 .hero-heading {
   width: 447px;
@@ -154,6 +158,9 @@ img{
   margin: 0;
   margin-bottom: 34px;
 
+}
+.about-us-hero-text{
+  width: 372px;
 }
 .main-link{
   font-family: "Roboto", "Arial", sans-serif;
@@ -177,12 +184,13 @@ img{
   left: 905px;
   top: 30px;
 
-
-
-
   }
 
-
+.top-img{
+  width: 710px;
+  height: 696px;
+  margin-bottom: 0;
+}
 /* MAIN */
 .collection {
   position: relative;
@@ -352,8 +360,7 @@ img{
   padding-right: 30px;
   margin: 0 auto;
   margin-top: 289px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+
   margin-bottom: 50px;
 
 }
@@ -651,8 +658,208 @@ img{
 
 
 /* CREATE_PLAN */
+.create-plan{
+  margin-top: 0;
+  margin-top: 20px;
+}
+
 .create-plan-container{
   padding-top: 80px;
   padding-bottom: 80px;
 
+
+}
+.create-plan-hero-text{
+  width: 372px;
+
+}
+
+.create-plan-cards {
+  display: flex;
+}
+.create-plan-cards-container {
+  max-width: 1400px;
+  padding: 50px 142px 50px 30px;
+  background-color: #f8f8f2;
+  margin: 0 auto;
+  margin-bottom: 50px;
+
+}
+
+.info {
+  width: 205px;
+  margin-right: auto;
+}
+
+.info-list{
+  padding: 0;
+  margin: 0;
+
+}
+
+.info-list-item{
+  list-style: none;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 33px;
+  color: #555;
+}
+
+.info-list-item:not(:last-child){
+  margin-bottom: 35px;
+}
+
+.info-list-item:nth-child(1){
+  color: #000;
+  border-bottom: 3px dashed #c99b67;
+}
+
+.offers {
+  width: 660px;
+}
+.offers-list {
+  padding: 0;
+  margin: 0;
+}
+
+.offers-list-item-list{
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.offers-list-box-heading{
+  margin: 0;
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #333
+}
+
+.capsule-heading{
+  color: #fff;
+}
+
+.capsule-text{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+
+}
+
+.offers-list-box-text{
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #333;
+
+}
+
+.offers-heading{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 55px;
+}
+
+.offers-list-item {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 55px;
+}
+.offers-list-item:not(:last-child){
+  margin-bottom: 60px;
+}
+.offers-list-item-heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 40px;
+  font-variant: small-caps;
+  text-transform: uppercase;
+  margin: 0;
+  color: #000;
+}
+
+.offers-list-item-icon {
+  width: 17px;
+  height: 11px;
+}
+
+.offers-list-item-box {
+  width: 206px;
+  height: 220px;
+  list-style: none;
+  padding: 30px 16px 80px 16px;
+}
+
+.offers-list-item-box:nth-child(1){
+  background-color: rgba(10, 119, 95, 1)
+  ;
+}
+
+.offers-list-item-box:nth-child(2){
+  background-color: rgba(10, 119, 95, 0.2)
+  ;
+
+}
+
+.offers-list-item-box:nth-child(3){
+  background-color: rgba(10, 119, 95, 0.2);
+}
+
+
+/* ORDER-SUMMMERY */
+.order-summery {
+  width: 660px;
+  padding: 40px 22px 40px 20px;
+  background-color: #c99b67;
+  margin-top: 100px;
+  margin-bottom: 20px;
+
+}
+
+.order-summery-heading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  margin: 0;
+  margin-bottom: 14px;
+}
+
+.order-summery-span{
+  color: #000;
+}
+
+.order-summery-text {
+  width: 618px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 34px;
+  margin: 0;
+  color: #fff;
+}
+
+/* ORDER_SUMMERY_LINK */
+
+
+.create-me-link{
+  display: inline-block;
+  margin-left: 484px;
 }
