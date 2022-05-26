@@ -694,15 +694,21 @@ img{
 .info-list{
   padding: 0;
   margin: 0;
+  margin-right: 20px;
 
 }
 
 .info-list-item{
+  display: inline-block;
   list-style: none;
   text-transform: uppercase;
   font-style: normal;
   font-weight: 500;
+  padding: 0;
   font-size: 20px;
+  border-bottom: 3px dashed transparent;
+  cursor: pointer;
+
   line-height: 33px;
   color: #555;
 }
@@ -711,7 +717,7 @@ img{
   margin-bottom: 35px;
 }
 
-.info-list-item:nth-child(1){
+.info-list-item:hover{
   color: #000;
   border-bottom: 3px dashed #c99b67;
 }
@@ -862,4 +868,33 @@ img{
 .create-me-link{
   display: inline-block;
   margin-left: 484px;
+}
+
+/* DELIVIERS */
+.create-plan-deliviers-list{
+  padding: 0;
+
+}
+
+.create-plan-deliviers-list-item{
+  list-style: none;
+  margin-bottom: 60px;
+}
+
+.delivers-info{
+  list-style: none;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 33px;
+  margin-bottom: 35px;
+  color: #555;
+}
+
+.delivers-info-last-child{
+  width: 150px;
+  padding-left: 5px;
+  border-bottom: 3px dashed #C99B67;
+  color: #000;
 }
