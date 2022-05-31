@@ -1,6 +1,13 @@
 :root{
   --text-color: #fff;
 }
+.dark-mode{
+  --text-color: #000;
+}
+
+.light-mode{
+  --text-color: rgb(136, 107, 52);
+}
 
 html{
   height: 100%;
