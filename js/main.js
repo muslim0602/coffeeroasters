@@ -8,6 +8,6 @@ elDarkModeButton.addEventListener('click', function () {
 
 elLightModeButton.addEventListener(
   'click', function name(params) {
-    document.body.classList.add('light-mode')
+    document.body.classList.remove('dark-mode')
   }
 );
