@@ -1,13 +1,8 @@
 
-const elDarkModeButton = document.querySelector('.dark-mode-btn');
-const elLightModeButton = document.querySelector('.light-mode-btn');
+const elOffersBtn=document.querySelector('.offers-btn');
+const elOffersBoxes=document.querySelector('.offers-boxes');
 
-elDarkModeButton.addEventListener('click', function () {
-  document.body.classList.add('dark-mode')
+elOffersBtn.addEventListener('click',function () {
+  elOffersBoxes.classList.toggle('js-control')
+
 });
-
-elLightModeButton.addEventListener(
-  'click', function name(params) {
-    document.body.classList.remove('dark-mode')
-  }
-);
